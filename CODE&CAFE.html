@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code&Cafe</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	#hhhh{
+		width: 100%;
+		height:100%;
+		position: relative;
+	}
+	.top
+	{
+		width: 100%;
+		height: 135px;
+		position: relative;
+		
+	}
+	
+	.logo p{
+        font-family:Comic Sans MS;
+        font-size: 80px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 500px;
+        color: black;
+        text-shadow: 2px 3px white;
+       
+	}
+
+	
+	.small 
+	{
+		position: absolute;
+		top: 85px;
+		left: 20px;
+		width: 600px;
+		height: 20px;
+		color: white;
+		text-shadow: 2px 2px black;
+	}
+	.Recommend{
+		width: 100px;
+		height: 70px;
+		position: absolute;
+		right: 140px;
+		top: 65.5px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height:90px;
+		padding-left: 10px;
+		padding-right: 10px;
+		
+
+	}
+	.Others{
+		width: 100px;
+		height: 70px;
+		position: absolute;
+		right: 270px;
+		top: 65.5px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height:90px;
+		padding-left: 10px;
+		padding-right: 10px;
+	
+
+	}
+	.General{
+		width: 100px;
+		height: 70px;
+		position: absolute;
+		right:400px;
+		top: 65.5px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height:90px;
+		padding-left: 20px;
+	}
+	.Location{
+		width: 100px;
+		height: 70px;
+		position: absolute;
+		right: 10px;
+		top: 65.5px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height:90px;
+		padding-left: 20px;
+	}
+
+	.Homepage{
+		width: 100px;
+		height: 70px;
+		position: absolute;
+		right:530px;
+		top: 65.5px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height:90px;
+		padding-left: 20px;
+	}
+	
+	div[class="General"]:hover{
+		width: 150px;
+		height: 70px;
+		position: absolute;
+		right:400px;
+		top: 65px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height: 70px;
+		padding-left: 20px;
+		z-index: 3;
+		border:1px solid white;
+	}
+	div[class="Others"]:hover{
+		width: 150px;
+		height: 70px;
+		position: absolute;
+		right: 270px;
+		top: 65px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height: 70px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border:1px solid white;
+	}
+	div[class="Recommend"]:hover{
+		width: 150px;
+		height: 70px;
+		position: absolute;
+		right: 140px;
+		top: 65px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height: 70px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border:1px solid white;
+
+		
+	}
+	div[class="Location"]:hover{
+		width: 150px;
+		height: 70px;
+		position: absolute;
+		right: 10px;
+		top: 65px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height: 70px;
+		padding-left: 20px;
+		border:1px solid white;
+
+	}
+	
+	div[class="Homepage"]:hover{
+		width: 150px;
+		height: 70px;
+		position: absolute;
+		right: 520px;
+		top: 65px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: black;
+		font-size: 20px;
+		font-weight: 3px;
+		line-height: 70px;
+		padding-left: 20px;
+		border:1px solid white;
+
+	}
+	a{
+		text-decoration: none;  /*取消下划线*/
+		color: white;
+		line-height: 3em;
+	}
+	.code{
+		position: relative;
+	}
+	.er{
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		left: 80px;
+		top: 20px;
+	}
+	div[class="er"] img:hover{
+		width: 400px;
+		height: 400px;
+		position: absolute;
+		left: 80px;
+		top: 20px;
+		z-index: 3;
+	}
+	.cat{
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		left: 80px;
+		top: 240px;
+	}
+	.bigbig{
+		width: 830px;
+		height: 420px;
+		position: absolute;
+		left:300px;
+		top: 20px;
+		margin-left: 30px;
+	}
+		
+	</style> 
+</head>
+<body>
+	<embed src="1.mp3" hidden="true" autostart="true" loop="true"></embed>
+	<div id="hhhh">
+		<div class="top" style="background-image: url(img/199.png);background-size: 1300px 135.7px;background-repeat: no-repeat; top: -25px;">
+			<div class="logo"><p>CODE&CAFE</p>
+			<h3 class="small">美好的生活应该分享给更多人，而好的咖啡也应该让更多人喝到</h3></div>
+			<div class="General"><a href="C:\Users\lenovo\Desktop\A.html">About&emsp;us</a></div>
+			<div class="Others"><a href="C:\Users\lenovo\Desktop\O.html">&emsp;Others</a></div>
+			<div class="Recommend"><a href="C:\Users\lenovo\Desktop\M.html">Merchandise</a></div>
+			<div class="Location"><a href="C:\Users\lenovo\Desktop\L.html">Location</a></div>
+			<div class="Homepage"><a href="C:\Users\lenovo\Desktop\CODE&CAFE.html">Homepage</a></div>
+			
+		</div>
+	<div class="code"><img  style="z-index: -1; width: 1247px;
+	height: 455px;opacity: 0.85;background-color:black;">
+		<div class="er"><img src="img/27.jpg" width="200px" height="200px"></div>
+		<div class="cat"><img src="img/26.jpg" width="200px" height="200px"></div>
+		<div class="bigbig"><img src="img/4.jpg" width="830px" height="420"></div>
+	</div>
+	</div>
+
+	
+</body>
+</html>
